@@ -34,4 +34,5 @@
  * @property {function} [onCollideEndCallback] - A callback that is invoked when this Body stops colliding with any other Body. You can register callbacks by providing a function of type `( pair: Matter.Pair) => void`.
  * @property {function} [onCollideActiveCallback] - A callback that is invoked for the duration that this Body is colliding with any other Body. You can register callbacks by providing a function of type `( pair: Matter.Pair) => void`.
  * @property {any} [onCollideWith] - A collision callback dictionary used by the `Body.setOnCollideWith` function.
+ * @property {Phaser.Types.Physics.Matter.MatterSetBodyConfig} [shape] - Optional body config
  */
